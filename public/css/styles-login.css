@@ -1,0 +1,42 @@
+.boton-ingresar {
+    background-color: #1259c3;
+    border: 2px solid #1259c3;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.div-boton {
+    text-align: center;
+}
+
+.div-boton:hover .boton-ingresar {
+    background-color: #0022AA;
+} 
+
+article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.article-footer {
+    color: #666;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 15px;
+    line-height: 17x;
+    margin: 10px;
+}
+
+.article-copyright {
+    color: #666;
+    font-size: 10px;
+}
+
+.icon {
+    text-align: center;
+    color:#1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
