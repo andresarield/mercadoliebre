@@ -4,7 +4,9 @@ const app = express();
 
 const path = require ('path');
 
-app.listen(3030, () => {console.log('Server up and running');});
+app.listen(process.env.PORT || 3000, function() {
+    console.log('Server up and running');
+});
 
 app.use(express.static('public'));
 
