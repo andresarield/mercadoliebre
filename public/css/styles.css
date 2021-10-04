@@ -363,31 +363,15 @@ article {
         font-size: 15px;
         line-height: 17x;
         margin: 10px;
-        display:flex;
-        position: relative;
+    }
+    .footer-container {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
     }
     .icon {
         text-align: center;
         color:#1259c3;
         font-size: 2em;
         margin-bottom: 10px;
-    }
-}
-
-/*
-@media (min-width: 1440px) {
-    .search-bar {
-        background-color: forestgreen;
-
-
-
-            360-768 medida celular
-
-
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 }
