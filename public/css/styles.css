@@ -45,7 +45,7 @@
 #searchbar {
     border-radius: 15px;
     padding: 10px 5px 10px 5px;
-    width: 65%;
+    width: 60%;
 }
 
 .fixed {
@@ -269,7 +269,7 @@ article {
         display: none;
     }
     .main-navbar {
-        display: flex;
+        display: inline-block;
         justify-content: space-between;
     }
     .main-navbar ul {
@@ -355,6 +355,7 @@ article {
         transition: opacity 0.5s;
     }
     .main-navbar {
+        display: flex;
         margin: 0 10px;
     }
     .main-navbar ul {
