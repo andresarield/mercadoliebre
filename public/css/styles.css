@@ -328,7 +328,6 @@ article {
     .copy-header {
         display: flex;
         margin: 0;
-        max-width: none;
         font-size: 22px;
         font-weight: 400;
         position: static;
